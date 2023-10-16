@@ -1,15 +1,4 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: url(../../components/images/login_page.jpg);
-    background-color: rgba(0, 0, 0, 0.699) !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-blend-mode: darken;
-    background-attachment: fixed;
-}
+
 
 .login_form_container{
     width: 25vw ;
@@ -23,7 +12,7 @@ body{
     margin: 0 auto;
     width: 5vw;
     position: relative;
-    border: 5px solid red;
+    border: 5px solid black;
     top: 1rem;
     border-radius: 50px;
 }

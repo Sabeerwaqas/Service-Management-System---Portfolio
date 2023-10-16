@@ -21,8 +21,8 @@ const Homepage = () => {
     <>
       <Grid container className="home-page">
         <div>
-          <h1 data-text="Binary Nexus" className="binary-nexus">
-            Binary Nexus
+          <h1 data-text="Sabeer Waqas" className="binary-nexus">
+            Sabeer Waqas
           </h1>
         </div>
         <Grid item xs={12} md={6}>
