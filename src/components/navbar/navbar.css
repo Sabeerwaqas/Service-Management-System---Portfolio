@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* For navbar-bg-color */
+
+.navbar-bg-color{
+    background-color: #dd0404 !important;
+}
+
+/* For nav-items */
+
+.nav-items{
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.nav-items:hover{
+    color: white !important;
+    box-shadow: 0px 2px 1px 0px white;
+}
+
+/* For binary-logo */
+
+.binary-logo{
+    font-weight: bold !important;
+    cursor: pointer;
+}

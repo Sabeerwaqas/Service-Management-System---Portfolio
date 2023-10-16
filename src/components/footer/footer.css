@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.footer{
+    margin-top: 5vw;
+    height: auto;
+    padding: 1rem;
+    background-color: #DD0404;
+}
+
+.footer-text{
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-footer{
+    padding: 0.01rem;
+    width: 5rem;
+    display: block;
+    color: black;
+    margin: 0 auto;
+    margin-top: 2%;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 1),
+                0px 0px 12px rgba(0, 0, 0, 0.5),
+                inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+                2px 2px 8px rgba(0,0,0,0.15);
+}
+
+.btn-footer:hover{
+
+    box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+                inset -2px -2px 12px rgba(119, 111, 111, 0.5),
+                inset 2px 2px 4px rgba(243, 241, 241, 0.1),
+                inset 2px 2px 8px rgba(0,0,0,0.15);
+
+}
+
+.instagram{
+    margin-top: 0.5rem;
+}
+
+.linkedin{
+    margin-top: 0.5rem;
+}

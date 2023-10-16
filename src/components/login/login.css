@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../../components/images/login_page.jpg);
+    background-color: rgba(0, 0, 0, 0.699) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+
+.login_form_container{
+    width: 25vw ;
+    height: 80vh;
+    background-color: rgba(241, 5, 5, 0.473);
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px 1px #ff7f50;
+}
+
+.logo{
+    margin: 0 auto;
+    width: 5vw;
+    position: relative;
+    border: 5px solid red;
+    top: 1rem;
+    border-radius: 50px;
+}
+
+.admin-login{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.email_input, .password_input{
+    background-color: rgba(0, 0, 0, 0.322);
+    display: block;
+    width: 20vw;    
+    color: #ffffff;
+    padding: 2%;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.signin-btn{
+    background-color: black;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    width: 20vw;
+    margin-top: 10%;
+    padding: 1%;
+    box-shadow: 0px 0px 10px 0 white;
+}
+
+.signin-btn:hover{
+    box-shadow: 0px 0px 10px 0 crimson;
+}
+
+.signup-link{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.form-hr{
+    margin-top: 8%;
+}
+
+/* Media Queries */
+
+/* For 768px */
+
+@media screen and (max-width:768px) {
+    
+    .login_form_container{
+        width: 50vw ;
+        height: 90vh;
+    }
+
+    .email_input, .password_input{
+        width: 40vw;    
+    }
+
+    .signin-btn{
+        width: 40vw;
+    }
+    
+
+}
+
+
+/* For 599px */
+
+@media screen and (max-width:599px) {
+    
+    .login_form_container{
+        width: 80vw ;
+        height: 80vh;
+    }
+
+    .email_input, .password_input{
+        width: 40vw;    
+    }
+
+    .signin-btn{
+        width: 40vw;
+    }
+
+    
+
+}
+
+
+
+/* For 480px */
+
+@media screen and (max-width:480px) {
+    
+    .email_input, .password_input{
+        width: 60vw;    
+    }
+
+    .signin-btn{
+        width: 60vw;
+    }
+    
+
+}
+
+/* For 380px */
+
+@media screen and (max-width:380px) {
+
+    .login_form_container{
+        width: 80vw ;
+        height: 85vh;
+    }
+
+    
+    .email_input, .password_input{
+        width: 60vw;    
+    }
+
+    .signin-btn{
+        width: 60vw;
+    }
+
+    .logo{
+        width: 15vw;
+    }
+    
+    
+
+}

@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-page {
+    background-image: url(../../components/images/homePageBG.jpeg);
+    width: auto;
+    height: 100vh;
+    position: relative;
+    bottom: 7rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+}
+
+/* For home-page-image */
+
+.home-page-image{
+    width: 30vw !important;
+    position: relative;
+    left: 60%;
+}
+
+/* For horizontal-scroll */
+
+.horizontal-scroll{
+    border: 1px solid black;
+    padding: 1rem;
+    position: relative;
+    bottom: 5vw;
+    color: red;
+    background-color: black;
+}
+
+/* For scroll */
+
+.scroll{
+    font-size: 2rem;
+    word-spacing: 5px;
+    font-weight: bold;
+}
+
+.scroll:hover{
+    color: white;
+ }
+
+/* For scroll-two */
+
+.scroll-two{
+    position: relative;
+    left: 3vw;
+}
+
+.scroll-two:hover{
+   color: white;
+}
+
+/* For scroll-three */
+
+.scroll-three{
+    position: relative;
+    left: 5vw;
+}
+
+.scroll-three:hover{
+    color: white;
+ }
+
+/* For scroll-four */
+
+.scroll-four{
+    position: relative;
+    left: 7vw;
+}
+
+.scroll-four:hover{
+    color: white;
+ }
+
+ /* For scroll-bar-icons */
+
+ .scroll-bar-icons{
+    position: relative;
+    right: 1%;
+    color: white;
+ }
+
+ .card-size{
+    width: 15rem;
+    height:12.5rem;
+    transition: 0.5s;
+    position: relative;
+    left: 2.5vw;
+ }
+
+ .card-headings{
+    text-align: center !important;
+ }
+
+ .child-1{
+    background-color: #dd0404;
+    z-index: 1 ;
+    transform: translateY(100px);
+    
+ }
+
+ .child-1:hover{
+    transform: translateY(0px);
+    background-color: #dd0404;
+ }
+
+
+ .security, .design, .research, .online-presence{
+    margin-top: 15%;
+ }
+
+
+ .face2{
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    color: black;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+ }
+
+ .content{
+    text-align: center;
+ }
+
+ .home-page-cards{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .home-cards{
+    /* background-color: #dd0404; */
+    text-align: center;
+ }
+
+ .cube-image{
+    margin-top: 15%;
+ }
+
+/* For animation */
+
+.binary-nexus {
+    position: absolute;
+    top: 20%;
+    left: 2.5%;
+    font-size: 8rem;
+    color: #222;
+    text-transform: uppercase;
+    width: 34%;
+}
+
+.binary-nexus::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 16px solid #dd0404;
+    color: #dd0404;
+    animation: animate 5s linear infinite;
+}
+
+.cards-container{
+    background-color: yellow;
+}
+
+@keyframes animate {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+/* Media Query For Responsive Design */
+
+/* For 900px */
+
+
+@media screen and (max-width:899px) {
+    
+    .animated-globe{
+        position: relative;
+    }
+
+    .animated-arrow{
+        width: 100vw;
+        position: relative;
+    }
+
+    .binary-nexus{
+        font-size: 5rem;
+        margin-top: 10%;
+        margin-left: 30%;
+        width: 32%;
+                
+    }
+
+    .animated-globe, .animated-arrow, .animated-call, .cube-image{
+        width: 50%;
+        margin:  0 auto;
+    }
+
+}
+
+/* For 600 */
+
+@media screen and (max-width: 600px) {
+    
+    .binary-nexus{
+        font-size: 5rem;
+        margin-top: 10%;
+        margin-left: 25%;
+        width: 48%;
+                
+    }
+
+    .animated-globe, .animated-arrow, .animated-call, .cube-image{
+        width: 50%;
+        margin:  0 auto;
+    }
+
+    
+
+}
+
+/* For 480px */
+
+@media screen and (max-width: 480px) {
+    
+    .binary-nexus{
+        font-size: 4rem;
+        margin-top: 10%;
+        margin-left: 25%;
+        width: 50%;
+                
+    }
+
+    .animated-globe, .animated-arrow, .animated-call, .cube-image{
+        width: 50%;
+        margin:  0 auto;
+    }
+
+    
+
+}
+
+/* For 380px */
+
+
+@media screen and (max-width: 380px) {
+    
+    .binary-nexus{
+        font-size: 3rem;
+        margin-top: 25%;
+        margin-left: 25%;
+        width: 45%;
+                
+    }
+}
