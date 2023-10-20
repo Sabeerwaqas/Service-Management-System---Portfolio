@@ -1,4 +1,3 @@
-import projectAuth 
 
 const PrivateRoutes = () => {
   return (

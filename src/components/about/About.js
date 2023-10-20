@@ -8,20 +8,17 @@ const about = () => {
   return (
     <>
       {/* Main Heading  */}
-      <Typography
-        variant="h4"
-        sx={{textAlign: "center" }}
-      >
+      <Typography variant="h4" sx={{ textAlign: "center" }}>
         About Us
       </Typography>
       {/* Grid Layout */}
-      <Grid container  spacing={2} my={5} p={2}>
-        <Grid  item sm={12}>
+      <Grid container spacing={2} my={5} p={2}>
+        <Grid item sm={12}>
           <Box
             component={"div"}
             className="about-grid"
             sx={{
-              backgroundColor: "red",
+              backgroundColor: "#419988",
               width: "100%",
               height: "100%",
               padding: "2%",
@@ -30,19 +27,18 @@ const about = () => {
             }}
           >
             <p>
-              Welcome to Binary Nexus International, your trusted partner for
-              digital marketing success. With a passion for delivering
-              outstanding results and a dedication to helping businesses thrive
-              in the digital landscape, we are here to transform your online
-              presence and drive your business forward.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+              repellat ipsam nesciunt vel doloremque blanditiis ipsa aperiam
+              cum, voluptatem deserunt ea assumenda dignissimos temporibus, hic
+              quos impedit atque explicabo et?
             </p>
             <p className="paragraph-two">
-              We are a team of experienced digital marketing professionals who
-              are committed to delivering top-notch solutions tailored to your
-              unique business needs. With a deep understanding of the
-              ever-changing digital landscape and a relentless pursuit of
-              excellence, we stay ahead of the curve to provide you with
-              innovative strategies that yield tangible results.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              adipisci recusandae ex quibusdam optio? Rem praesentium corporis
+              accusantium obcaecati, soluta vitae pariatur temporibus
+              perspiciatis rerum officiis eos debitis aliquid fuga voluptatum
+              nobis fugiat consequatur quod ipsum repudiandae reiciendis
+              suscipit sed aut libero explicabo? Rem, neque!
             </p>
           </Box>
         </Grid>
