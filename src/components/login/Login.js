@@ -56,7 +56,7 @@ const Login = () => {
             </div>
             <div>
               <button className="signin-btn" type="submit">
-                {history ? "LogIn": "Log out"}
+                LogIn
               </button>
             </div>
             {/* <div className="signup-link">

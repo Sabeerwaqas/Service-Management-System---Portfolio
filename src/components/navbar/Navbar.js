@@ -15,7 +15,10 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
+import { getAuth, signOut } from "firebase/auth";
 import "./navbar.css";
+import { auth } from "../config/firebase-config";
+import {} from "firebase/auth";
 
 const drawerWidth = 240;
 const navItems = [
@@ -26,6 +29,15 @@ const navItems = [
 ];
 
 function DrawerAppBar(props) {
+  const auth = getAuth();
+  signOut(auth)
+    .then(() => {
+      // Sign-out successful.
+    })
+    .catch((error) => {
+      // An error happened.
+    });
+
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -74,7 +86,7 @@ function DrawerAppBar(props) {
             className="binary-logo"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
-            Binary Nexus
+            Services Management System
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
