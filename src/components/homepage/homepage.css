@@ -32,7 +32,7 @@ body {
     padding: 1rem;
     position: relative;
     bottom: 5vw;
-    color: #00ff7f;
+    color: #1F82BD;
     background-color: black;
 }
 
@@ -148,7 +148,7 @@ body {
 
 /* For animation */
 
-.binary-nexus {
+.naming-animation {
     position: absolute;
     top: 20%;
     left: 2.5%;
@@ -158,15 +158,15 @@ body {
     width: 34%;
 }
 
-.binary-nexus::before {
+.naming-animation::before {
     content: attr(data-text);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
-    border-bottom: 16px solid springgreen;
-    color: springgreen;
+    border-bottom: 16px solid #1F82BD;
+    color: #1F82BD;
     animation: animate 5s linear infinite;
 }
 

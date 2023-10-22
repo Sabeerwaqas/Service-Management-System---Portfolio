@@ -18,7 +18,7 @@ const about = () => {
             component={"div"}
             className="about-grid"
             sx={{
-              backgroundColor: "#419988",
+              backgroundColor: "#1F82BD",
               width: "100%",
               height: "100%",
               padding: "2%",

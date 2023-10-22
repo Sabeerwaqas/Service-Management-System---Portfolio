@@ -1,5 +1,6 @@
 import * as React from "react";
 import PropTypes from "prop-types";
+import ItVerticalsLogo from "../images/itv-icon.webp"
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -86,7 +87,7 @@ function DrawerAppBar(props) {
             className="binary-logo"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
-            Services Management System
+          Service Managing Tool
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (

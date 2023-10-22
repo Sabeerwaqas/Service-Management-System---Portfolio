@@ -21,7 +21,7 @@ const Homepage = () => {
     <>
       <Grid container className="home-page">
         <div>
-          <h1 data-text="Service Management System" className="binary-nexus">
+          <h1 data-text="Service Management System" className="naming-animation">
             Service Management System
           </h1>
         </div>
