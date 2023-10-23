@@ -1,0 +1,31 @@
+.same-classes{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    margin-left: 2.7rem !important;
+}
+
+.company-profile-card{
+    height: 50vh;
+    background-color: #1F82BD;
+}
+
+.child-two{
+    background-color: green;
+    height: 10vh;
+}
+
+.child-three{
+    background-color: blueviolet;
+    height: 10vh;
+}
+
+.child-four{
+    background-color: red;
+    height: 10vh;
+}
+
+.profile-card-img{
+    height: 15vh;
+    width: 100vw;
+}
