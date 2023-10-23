@@ -7,25 +7,48 @@
 
 .company-profile-card{
     height: 50vh;
-    background-color: #1F82BD;
+    background-color:white;
+    box-shadow: 0px 0px 15px 0px gray;
+    cursor: pointer;
 }
 
 .child-two{
-    background-color: green;
+    background-color: white;
     height: 10vh;
-}
-
-.child-three{
-    background-color: blueviolet;
-    height: 10vh;
-}
-
-.child-four{
-    background-color: red;
-    height: 10vh;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bold;
 }
 
 .profile-card-img{
     height: 15vh;
     width: 100vw;
+}
+
+.profile-image{
+    display: inline-block;
+    width: 5vw;
+    height: 10vh;
+    position: relative;
+    left: 35%;
+    bottom: 1rem;
+}
+
+.list-child{
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 500;
+}
+
+.services-cards{
+    height: 50vh;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px gray;
+    padding: 0.5rem;
+}
+
+.digital-marketing-clients{
+    font-weight: bold;
+    font-size:1.5rem;
+    text-align: center;
 }
