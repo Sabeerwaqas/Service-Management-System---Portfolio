@@ -21,7 +21,14 @@ const Dashboard = () => {
       onboarding_date: value.onboarding_date,
       service_status: value.service_status,
       service_fee: value.service_fee
-    }))
+    }));
+    setValue({
+      client_name: "",
+      client_number: "",
+      onboarding_date: "",
+      service_status: "",
+      service_fee: ""
+    })
 
   }
 
