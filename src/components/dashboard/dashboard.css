@@ -13,7 +13,6 @@
 }
 
 .child-two{
-    background-color: white;
     height: 10vh;
     text-align: center;
     margin-top: 5%;
@@ -64,5 +63,17 @@
 }
 
 .client-data{
+    margin-top: 5%;
+}
+
+.client-form-input{
+    margin-left: 10%;
+}
+
+.data-input{
+    margin-top: 5%;
+}
+
+hr{
     margin-top: 5%;
 }
