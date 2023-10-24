@@ -13,6 +13,18 @@ const Dashboard = () => {
     service_fee:""
   })
 
+
+  const addClientData = (e) => {
+    dispatch(create({
+      client_name: value.client_name,
+      client_number: value.client_number,
+      onboarding_date: value.onboarding_date,
+      service_status: value.service_status,
+      service_fee: value.service_fee
+    }))
+
+  }
+
   return (
     <>
       <div>
@@ -23,7 +35,7 @@ const Dashboard = () => {
               <hr />
             </div>
             <div className="child-four">
-              <form action="">
+              <form onSubmit={addClientData}>
                 <div className="client-form-input">
                   <input
                     name="client_name"
@@ -73,6 +85,9 @@ const Dashboard = () => {
                     className="data-input"
                   />
                 </div>
+                <button type="submit">
+                  Add Client
+                </button>
               </form>
             </div>
           </Grid>
