@@ -157,9 +157,9 @@
 @media screen and (max-width:380px) {
 
     .login_form_container{
-        width: 85vw ;
-        height: 85vh;
-        margin-left: 10%;
+        width: 90vw ;
+        height: 70vh;
+        margin-left: 8%;
     }
 
     

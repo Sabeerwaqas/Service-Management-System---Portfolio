@@ -252,6 +252,10 @@ body {
         margin:  0 auto;
     }
 
+    .naming-animation{
+        font-size: 3rem;
+        width: 70%;
+    }
     
 
 }
