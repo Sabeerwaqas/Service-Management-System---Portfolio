@@ -30,7 +30,7 @@ Welcome to my GitHub repo. I hope you are doing well. I am Sabeer. During my int
    <a href="https://youtube.com/playlist?list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO&si=dYAPWo5-9zR-AeOa">Material UI playlist<a/>
   </li>
   <li>
-   <a href="https://youtube.com/playlist?list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO&si=dYAPWo5-9zR-AeOa](https://youtu.be/NqzdVN2tyvQ?si=nihoeiVV2o4VjcoA)https://youtu.be/NqzdVN2tyvQ?si=nihoeiVV2o4VjcoA">Redux-Toolkit<a/>
+   <a href="https://youtu.be/NqzdVN2tyvQ?si=yHXXToenULr1jfbO">Redux-Toolkit<a/>
   </li>
  </ul>
 </div>
